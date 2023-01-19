@@ -43,7 +43,9 @@ void SaveOBJ(const string &filename, vector<Model> parts, Params &params)
     std::ofstream os(filename);
     for (int n = 0; n < (int)parts.size(); n++)
     {
-        os << "o convex_" << n << endl;
+        // os << "o convex_" << n << endl;
+        // Make a group instead (better for Unity)
+        os << "g convex_" << n << endl;
         for (int i = 0; i < (int)parts[n].points.size(); ++i)
         {
             os << "v " << parts[n].points[i][0] << " " << parts[n].points[i][1] << " " << parts[n].points[i][2] << "\n";
