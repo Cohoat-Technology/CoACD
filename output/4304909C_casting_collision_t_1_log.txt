@@ -1,0 +1,24 @@
+ - Config
+	Input Path:                        /home/ros/ros_ws/src/CoACD/input/4304909C_casting.obj
+	Output Path:                       /home/ros/ros_ws/src/CoACD/output/4304909C_casting_collision_t_1.obj
+	Log Path:                          /home/ros/ros_ws/src/CoACD/output/4304909C_casting_collision_t_1_log.txt
+	Terminal Threshold:                1
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1675799282
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 0.208778s
+#Points: 11918
+#Triangles: 23836
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+Compute Time: 0.183177s
+#Convex After Merge: 1
